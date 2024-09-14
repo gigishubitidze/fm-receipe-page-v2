@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/gigishubitidze/fm-recipe-page.git)
-- Live Site URL: [GitHub Pages](https://gigishubitidze.github.io/fm-recipe-page/)
+- Solution URL: [GitHub](https://github.com/gigishubitidze/fm-receipe-page-v2.git)
+- Live Site URL: [GitHub Pages](https://gigishubitidze.github.io/fm-receipe-page-v2/)
 
 ## My process
 
