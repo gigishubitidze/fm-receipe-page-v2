@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: #312e2c;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #854632;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f3e5d7;
+  padding: 10%;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #5f564d;
+}
+
+.card {
+  max-width: 736px;
+  background-color: #fff;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  padding: 0 32px 40px 32px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.preparation {
+  padding: 24px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+}
+
+.preparation h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #7a284e;
+  margin-bottom: 16px;
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 24px;
+}
+
+li {
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li::marker {
+  color: #7a284e;
+  font-weight: 700;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e3ddd7;
+  margin-bottom: 32px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #e3ddd7;
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  padding: 12px 0 12px 32px;
+}
+
+tr:last-child th {
+  padding-bottom: 0;
+}
+
+td {
+  font-weight: 700;
+  padding-left: 16px;
+  color: #854632;
+}
+
+/* Responsive media query */
+@media screen and (min-width: 376px) {
+  .card {
+    padding: 40px;
+    border-radius: 24px;
+  }
+
+  header img {
+    border-radius: 12px;
+  }
+
+  main {
+    padding: 0;
+  }
+}
